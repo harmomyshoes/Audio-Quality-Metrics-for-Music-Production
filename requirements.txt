@@ -9,3 +9,4 @@ pyclarity==0.7.1
 scipy==1.15.3
 soundfile==0.13.1
 streamlit==1.47.1
+fast-mp3-augment==0.1.0
