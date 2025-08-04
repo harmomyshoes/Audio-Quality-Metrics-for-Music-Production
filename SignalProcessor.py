@@ -468,7 +468,7 @@ class SignalProcessorClass:
         self.MixingRMS = round(NEUtil.calculate_rms_dB(mixing_data),2)
         self.MixingClippingPercentage, self.MixingClippingSamplesNum = NEUtil.calcaulate_cliped_samples(mixing_data)
         print(f"After LUFS, the mixing ouput in the RMS, Total: {round(NEUtil.calculate_rms_dB(mixing_data),2)}dB, Clipping Ratio&Cliped Num: {NEUtil.calcaulate_cliped_samples(mixing_data)}")
-        return mixing_data,mixing_sr
+        return mixing_data
 
         ## the function that output the mixing file
     def OutputMixingFile(self,data, srate, filename):
@@ -672,6 +672,7 @@ class SignalProcessorClass:
     def AddingHumNoise_Single(self,data,srate,manipulation_value):
 #        print(f"Before, there is {NEUtil.count_zeros(data)} in zero")
         if manipulation_value!= 0:
+            print(f"data shape is {data.shape}, srate is {srate}, manipulation_value is {manipulation_value}")
             data = NoiseEvalEffect.Add_HummingNoise(data, srate, manipulation_value)
 #        print(f"After, there is {NEUtil.count_zeros(data)} in zero")
         return data,srate

@@ -1,0 +1,11 @@
+audio_plot==0.0.3
+audiomentations==0.42.0
+cylimiter==0.4.2
+librosa==0.11.0
+matplotlib==3.10.5
+numpy==2.3.2
+pandas==2.3.1
+pyclarity==0.7.1
+scipy==1.16.1
+soundfile==0.13.1
+streamlit==1.47.1
