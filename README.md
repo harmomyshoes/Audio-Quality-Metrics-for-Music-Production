@@ -8,12 +8,11 @@ For full details, please consult the paper. If you use this work in your own res
 
 Thanks for the attention. If want to cite, please use the bib below:
 
-@misc { ,
-	title = {EVALUATING THE PERFORMANCE OF OBJECTIVE AUDIO QUALITY METRICS IN RESPONSE TO COMMON AUDIO DEGRADATIONS},
+@misc { title = {EVALUATING THE PERFORMANCE OF OBJECTIVE AUDIO QUALITY METRICS IN RESPONSE TO COMMON AUDIO DEGRADATIONS},
 	conference = {Proceedings of the 28th International Conference on Digital Audio Effects (DAFx25)},
 	publicationstatus = {Accepted},
 	author = {He, Xie and Williams, Duncan and Fazenda, Bruno},
 	doi = {https://zenodo.org/records/16739491},
 	year = {2025},
-  address   = {Salford, UK},
+ 	address   = {Salford, UK},
 }
