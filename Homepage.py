@@ -204,7 +204,7 @@ if st.button("HAAQI Evaluation"):
                 **HAAQI** (Hearing-Aid Audio Quality Index) predicts perceived audio fidelity for hearing-aid users.  
                 It has been shown to reliably quantify the impact of various degradations—including those typical in music-production pipelines—against a clean reference.
 
-                For full details and the underlying methodology, see the [ Technical Specification (PDF)](DAFx25_paper_5_Evaluation_with_HAAQI.pdf).
+                For full details and the underlying methodology, see the [ Technical Specification (PDF)](https://github.com/harmomyshoes/Audio-Quality-Metrics-for-Music-Production/blob/master/DAFx25_paper_5_Evaluation_with_HAAQI.pdf).
 
                 **Score Interpretation**
                 - **1.00**: Perfect match to the reference (indistinguishable)  
