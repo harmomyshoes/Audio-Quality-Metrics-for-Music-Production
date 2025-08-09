@@ -8,6 +8,7 @@ For full details, please consult the paper. If you use this work in your own res
 
 Thanks for the attention. If want to cite, please use the bib below:
 
+``` LATEX
 @misc{he2025objective,
   title               = {Evaluating the Performance of Objective Audio Quality Metrics in Response to Common Audio Degradations},
   author              = {He, Xie and Williams, Duncan and Fazenda, Bruno},
